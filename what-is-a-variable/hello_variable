@@ -2,4 +2,10 @@
 
 # Welcome to your first Bash Script
 
-echo 'Hello World!'
+hello_message='Hello All!'
+current_dir=$(pwd)
+readonly unchangeable="purple"
+
+unchangeable="yellow"
+
+echo "$hello_message from $current_dir and my favourite colour is $unchangeable"
